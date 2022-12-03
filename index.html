@@ -1,0 +1,601 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Learn Web | Bootstrap</title>
+    <!--font awesome link-->
+    <script src="https://kit.fontawesome.com/b4ca7c4a23.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- header section start -->
+    <header>
+        <!--nav menu start-->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container">
+                <a class="navbar-brand text-dark" href="#">
+                    <h3>Learn Web</h3>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Deals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ">Success</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Blog</a>
+                        </li>
+                    </ul>
+                    <div class="register-button">
+                        <button class="btn border border-primary text-primary" type="submit"><a class="text-decoration-none" href="">Register</a></button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!--nav menu end-->
+    </header>
+    <!-- header section end -->
+
+    <!--slider start-->
+    <div class="container">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/cover/cover-1.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h5 class="fs-1">Best Web Developer</h5>
+                        <p>Always we are try to provide world's best web solution.</p>
+                        <button type="button" class="btn btn-white text-bg-primary mb-3">Get Started</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/cover/cover-2.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h5 class="fs-1">We Have best technician.</h5>
+                        <p>Always we have provide best technician in our client.</p>
+                        <button type="button" class="btn btn-white text-bg-primary mb-3">Get Started</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/cover/cover-3.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h5 class="fs-1">We have Backend Developer.</h5>
+                        <p>We have popular web language's backend developer.</p>
+                        <button type="button" class="btn btn-white text-bg-primary mb-3">Get Started</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!--slider end-->
+
+
+    <main>
+        <!--course start-->
+        <div class="container">
+            <div class="course-header my-5">
+                <h1 class="text-center">Discover Our Popular <br>Courses</h1>
+                <p class="text-center text-secondary">Our course is work by global educator. This instructors are<br> exprience and shrewd information about educating</p>
+            </div>
+            <div class="row flex-column flex-md-row">
+                <div class="col col-md-12 col-lg-6 mb-3">
+                    <div class="card border border-0 shadow-lg d-flex flex-md-row gap-3">
+                        <div class="img">
+                            <img class="card-img-top h-100" src="images/course/course-1.png" alt="" />
+                        </div>
+                        <div class="details align-items-center">
+                            <h4>Fundamental Of UI/UX Design</h4>
+                            <p class="text-secondary">
+                                UI/UX Design Specialization brings a design-centric approach to user interface and user experience design.
+                            </p>
+                            <p class=" text-primary">Price: 120$</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-md-12 col-lg-6 mb-3">
+                    <div class="card border border-0 shadow-lg d-flex flex-md-row gap-3">
+                        <div class="img">
+                            <img class="card-img-top h-100" src="images/course/course-2.png" alt="" />
+                        </div>
+                        <div class="details align-items-center">
+                            <h4>Javascript Basic to advanced</h4>
+                            <p class="text-secondary">
+                                Take your skills to a new level and join millions of users that have learned Javascript. Beginner Friendly.
+                            </p>
+                            <p class=" text-primary">Price: 200$</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-md-12 col-lg-6 mb-3">
+                    <div class="card border border-0 shadow-lg d-flex flex-md-row gap-3">
+                        <div class="img">
+                            <img class="card-img-top h-100" src="images/course/course-3.png" alt="" />
+                        </div>
+                        <div class="details align-items-center">
+                            <h4>Fullstack Web Development</h4>
+                            <p class="text-secondary">
+                                A full stack web developer is an individual who can foster both client and server programming.That's it.
+                            </p>
+                            <p class=" text-primary">Price: 300$</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-md-12 col-lg-6 mb-3">
+                    <div class="card border border-0 shadow-lg d-flex flex-md-row gap-3">
+                        <div class="img">
+                            <img class="card-img-top h-100" src="images/course/course-4.png" alt="" />
+                        </div>
+                        <div class="details align-items-center">
+                            <h4>Digital Marketing</h4>
+                            <p class="text-secondary">
+                                Advanced advertising includes promoting to buyers through quite a few computerized channels.
+                            </p>
+                            <p class=" text-primary">Price: 190$</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-md-12 col-lg-6 mb-3">
+                    <div class="card border border-0 shadow-lg d-flex flex-md-row gap-3">
+                        <div class="img">
+                            <img class="card-img-top h-100" src="images/course/course-5.png" alt="" />
+                        </div>
+                        <div class="details align-items-center">
+                            <h4>Photography Basic Rules</h4>
+                            <p class="text-secondary">
+                                Lets click marvelous photograph and figure out how snap mind blowing Photography, so lets start.
+                            </p>
+                            <p class=" text-primary">Price: 120$</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-md-12 col-lg-6 mb-3">
+                    <div class="card border border-0 shadow-lg d-flex flex-md-row gap-3">
+                        <div class="img">
+                            <img class="card-img-top h-100" src="images/course/course-6.png" alt="" />
+                        </div>
+                        <div class="details align-items-center">
+                            <h4>Motion Graphics</h4>
+                            <p class="text-secondary">
+                                This course is amazing for you assuming that you are interest to find out about movement realistic.
+                            </p>
+                            <p class=" text-primary">Price: 170$</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <button type="button" class="btn btn-white text-bg-primary mb-3 px-4 mt-5">View All</button>
+                </div>
+
+            </div>
+            <!--course end-->
+
+            <!-- explore start -->
+            <div class="container my-5">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="work-img">
+                            <img class="w-100" src="images/working.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12  d-flex align-items-center">
+                        <div class="explore-detail ms-md-5 overflow-hidden">
+                            <h1>Explore The elearning <br>Institute</h1>
+                            <p class="text-secondary">Figure out how to lead in influence estimation, creative money and environment advancement. Access a different scope of online courses and redid preparing. Figure out more. Get A Free Course.<br><br>Each careful reproduction model will be joined by a self-evaluation structure, permitting careful specialists to test their recently procured abilities.</p>
+
+                            <div class="explore-number d-flex">
+                                <span> <strong class="fs-1">3.2K+</strong>
+                                    <p class="me-5">Online Course</p>
+                                </span>
+                                <span> <strong class="fs-1">600+</strong>
+                                    <p class="me-5">Expert member</p>
+                                </span>
+                                <span> <strong class="fs-1">1k+</strong>
+                                    <p class="me-5">Expert member</p>
+                                </span>
+                            </div>
+                            <button type="button" class="btn btn-white text-bg-primary mb-3 px-4 mt-5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- explore end -->
+            <!-- register start -->
+            <div class="container my-5">
+                <div class="row">
+                    <div class="ready-join d-lg-flex align-items-center text-bg-primary border rounded py-3 px-5">
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                            <h2>Ready to join?</h2>
+                            <p class="text-light">If you want join our excellent all course to join. Please now do registation. It will be helpfull for you.</p>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 d-lg-flex justify-content-end align-items-center">
+                            <button type="button" class="btn btn-primary bg-light text-primary fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</button>
+                            <!-- Modal start-->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h2 class="text-dark">Register Please</h2>
+                                            <form action="/action_page.php">
+                                                <label for="fname" class="text-dark">First name:</label><br>
+                                                <input type="text" id="fname" name="fname" value=""><br>
+                                                <label for="lname" class="text-dark">Last name:</label><br>
+                                                <input type="text" id="lname" name="lname" value=""><br>
+                                                <label for="lname" class="text-dark">Email:</label><br>
+                                                <input type="text" id="lname" name="lname" value=""><br>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Modal end-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- register end -->
+
+            <!-- successfull student start-->
+            <div class="container">
+                <div class="student-header my-5">
+                    <h1>Meet Our Successfull <br>Students</h1>
+                    <p class="text-secondary">List of our all talented best good students. Our many student <br>there are lot of job in best quality IT companies.</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                        <div class="card border border-0 shadow">
+                            <img src="images/student/student-1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Awlad Hossain</h5>
+                                <p class="card-text text-secondary">UIUX Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                        <div class="card border border-0 shadow">
+                            <img src="images/student/student-2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Awlad Hossain</h5>
+                                <p class="card-text text-secondary">Motion Design</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                        <div class="card border border-0 shadow">
+                            <img src="images/student/student-3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Awlad Hossain</h5>
+                                <p class="card-text text-secondary">Graphic Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                        <div class="card border border-0 shadow">
+                            <img src="images/student/student-4.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Awlad Hossain</h5>
+                                <p class="card-text text-secondary">Web Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button type="button" class="btn btn-white text-bg-primary mb-3 px-4 mt-5">View All</button>
+                </div>
+            </div>
+            <!-- successfull student end-->
+
+            <!-- feedback start -->
+            <div class="container">
+                <div class="feedback-header text-center my-5">
+                    <h1>Some Students Feedback</h1>
+                    <p class="text-secondary">Criticism is any reaction with respect to an understudy's <br>presentation or conduct.</p>
+                    <hr class="m-auto w-50">
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="card mb-5  shadow">
+                            <div class="student-feedback p-2">
+                                <div class="img-top d-flex justify-content-between">
+                                    <img src="images/comma.png" alt="">
+                                    <div class="img-star">
+                                        <img src="images/rating.png" alt="">
+                                        <img src="images/rating.png" alt="">
+                                        <img src="images/rating.png" alt="">
+                                        <img src="images/rating.png" alt="">
+                                        <img src="images/half-rating.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="some-talk my-2">
+                                    <p>Input is any reaction with respect to an understudy's exhibition or conduct. It very well may be verbal, composed or gestural. The reason for criticism in the evaluation and educational experience is to work on an understudy's exhibition - not put down it.</p>
+                                </div>
+                                <div>
+                                    <div class="student-detail d-flex">
+                                        <img class="h-100" src="images/student/student-5.png" alt="">
+                                        <div class="name-work ps-2">
+                                            <strong>Awlad Hossain</strong>
+                                            <p class="text-secondary">UI Designer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="card mb-5  shadow">
+                            <div class="student-feedback p-2">
+                                <div class="img-top d-flex justify-content-between">
+                                    <img src="images/comma.png" alt="">
+                                    <div class="img-star">
+                                        <img src="images/rating.png" alt="">
+                                        <img src="images/rating.png" alt="">
+                                        <img src="images/rating.png" alt="">
+                                        <img src="images/rating.png" alt="">
+                                        <img src="images/half-rating.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="some-talk my-2">
+                                    <p>Input is any reaction with respect to an understudy's exhibition or conduct. It very well may be verbal, composed or gestural. The reason for criticism in the evaluation and educational experience is to work on an understudy's exhibition - not put down it.</p>
+                                </div>
+                                <div>
+                                    <div class="student-detail d-flex">
+                                        <img class="h-100" src="images/student/student-6.png" alt="">
+                                        <div class="name-work ps-2">
+                                            <strong>Shanta Akter</strong>
+                                            <p class="text-secondary">Graphic Designer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="card mb-5  shadow">
+                            <div class="student-feedback p-2">
+                                <div class="img-top d-flex justify-content-between">
+                                    <img src="images/comma.png" alt="">
+                                    <div class="img-star">
+                                        <img src="images/rating.png" alt="">
+                                        <img src="images/rating.png" alt="">
+                                        <img src="images/rating.png" alt="">
+                                        <img src="images/rating.png" alt="">
+                                        <img src="images/half-rating.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="some-talk my-2">
+                                    <p>Input is any reaction with respect to an understudy's exhibition or conduct. It very well may be verbal, composed or gestural. The reason for criticism in the evaluation and educational experience is to work on an understudy's exhibition - not put down it.</p>
+                                </div>
+                                <div>
+                                    <div class="student-detail d-flex">
+                                        <img class="h-100" src="images/student/student-7.png" alt="">
+                                        <div class="name-work ps-2">
+                                            <strong>James Robert</strong>
+                                            <p class="text-secondary">Social Marketer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="card mb-5  shadow">
+                            <div class="student-feedback p-2">
+                                <div class="img-top d-flex justify-content-between">
+                                    <img src="images/comma.png" alt="">
+                                    <div class="img-star">
+                                        <img src="images/rating.png" alt="">
+                                        <img src="images/rating.png" alt="">
+                                        <img src="images/rating.png" alt="">
+                                        <img src="images/rating.png" alt="">
+                                        <img src="images/half-rating.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="some-talk my-2">
+                                    <p>Input is any reaction with respect to an understudy's exhibition or conduct. It very well may be verbal, composed or gestural. The reason for criticism in the evaluation and educational experience is to work on an understudy's exhibition - not put down it.</p>
+                                </div>
+                                <div>
+                                    <div class="student-detail d-flex">
+                                        <img class="h-100" src="images/student/student-8.png" alt="">
+                                        <div class="name-work ps-2">
+                                            <strong>Joseph Thomas</strong>
+                                            <p class="text-secondary">Web Developer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- feedback end -->
+
+            <!-- feequently start -->
+            <div class="container">
+                <div class="frequently-header text-center">
+                    <h1>Frequently Asked Questions</h1>
+                    <p class="text-secondary">Some common and interesting good question<br> and answer is given below.</p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-7">
+                        <div class="frequently-question">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            What are the difference is between flex box and grid?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            What are the difference Tailwind css and Bootstrap?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p> Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit. Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and uniqueness. Sites created using Bootstrap follow the generic pattern that makes them look identical.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            What is a css box model?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            A CSS box model is a compartment that includes numerous assets, such as edge, border, padding and material. It is used to develop the design and structure of a web page. It can be used as a set of tools to personalize the layout of different components. According to the CSS box model, the web browser supplies each element as a square prism.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFour">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                            What is Semantic element?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>
+                                                In any language, it is essential to understand the meaning of words during communication. And if this is a computer communication then it becomes more critical. So HTML5 provides more semantic elements which make easy understanding of the code.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- feequently end -->
+
+            <!-- companies start -->
+            <div class="container">
+                <div class="row">
+                    <div class="companie d-none d-lg-block d-sm-none d-md-none">
+                        <h1 class="text-center mt-5">Trusted by over 800+ companies</h1>
+                    </div>
+                    <div class="col-lg-2 my-5 d-none d-lg-block d-sm-none d-md-none">
+                        <div class="companies-name">
+                            <div class="company-logo">
+                                <img src="images/company/company-1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 my-5 d-none d-lg-block d-sm-none d-md-none">
+                        <div class="companies-name">
+                            <div class="company-logo">
+                                <img src="images/company/company-2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 my-5 d-none d-lg-block d-sm-none d-md-none">
+                        <div class="companies-name">
+                            <div class="company-logo">
+                                <img src="images/company/company-3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 my-5 d-none d-lg-block d-sm-none d-md-none">
+                        <div class="companies-name">
+                            <div class="company-logo">
+                                <img src="images/company/company-4.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 my-5 d-none d-lg-block d-sm-none d-md-none">
+                        <div class="companies-name">
+                            <div class="company-logo">
+                                <img src="images/company/company-5.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 my-5 d-none d-lg-block d-sm-none d-md-none">
+                        <div class="companies-name">
+                            <div class="company-logo">
+                                <img src="images/company/company-6.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- companies end -->
+    </main>
+
+    <!-- footer start -->
+    <footer>
+        <div class="text-center bg-black text-white py-5">
+            <div class="container learn-web-footer">
+                <div class="address-terms">
+                    <h3>Learn Web</h3>
+                    <hr class="m-auto w-25">
+                    <address>House-38; Monsurabad, Mohammadpur,<br>Dhaka, Bangladesh</address>
+                    <span><a class="text-decoration-none text-light" href="#">Privacy Ploicy | Terms of use</a></span>
+                </div>
+                <div class="social-site">
+                    <ul class="d-flex justify-content-center">
+                        <li class="list-unstyled m-2 mt-2"><a class="text-light fs-3" href="https://www.facebook.com/rezoneprins/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li class="list-unstyled m-2 mt-2"><a class="text-light fs-3" href="https://www.instagram.com/rezoneprince/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li class="list-unstyled m-2 mt-2"><a class="text-light fs-3" href="https://twitter.com/rezoneprince" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li class="list-unstyled m-2 mt-2"><a class="text-light fs-3" href="https://www.linkedin.com/in/rezoneprince/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!-- footer end -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+
+</html>
